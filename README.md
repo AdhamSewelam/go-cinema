@@ -8,8 +8,7 @@
 
 ### Links
 
-- Solution URL: [GitHub Code](https://go-cinema.vercel.app)
-- Live Site URL: [Live Demo](https://github.com/AdhamSewelam/go-cinema)
+- Live Site URL: [Live Demo]((https://go-cinema.vercel.app)
 
 ### Built with
 
