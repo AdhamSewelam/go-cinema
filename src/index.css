@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap");
+
+body {
+  font-family: "Montserrat Alternates", sans-serif !important;
+  background-color: rgb(19, 23, 34);
+  color: white;
+}
+
+.bg-lights {
+  background-color: #24baef !important;
+}
+.brdr {
+  background-color: #a8a8a83d;
+  height: 2px;
+}
+a,
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.form-control {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.textShadow {
+  text-shadow: 0.1rem 0.1rem 0.3rem rgb(255 131 239 / 50%),
+    -0.1rem -0.1rem 0.3rem rgb(255 162 243 / 50%),
+    0.1rem 0.1rem 0.3rem rgb(255 255 255 / 30%),
+    -0.1rem -0.1rem 0.3rem rgb(255 255 255 / 30%);
+}
+.iconSocial i {
+  transition: 0.3s all;
+  cursor: pointer;
+}
+.iconSocial i:hover {
+  text-shadow: 0.1rem 0.1rem 0.3rem rgb(255 131 239 / 50%),
+    -0.1rem -0.1rem 0.3rem rgb(255 162 243 / 50%),
+    0.1rem 0.1rem 0.3rem rgb(255 255 255 / 30%),
+    -0.1rem -0.1rem 0.3rem rgb(255 255 255 / 30%);
+}
+.seeMore {
+  transition: 0.3s all;
+}
+.seeMore:hover {
+  text-shadow: 0.1rem 0.1rem 0.3rem rgb(255 131 239 / 50%),
+    -0.1rem -0.1rem 0.3rem rgb(255 162 243 / 50%),
+    0.1rem 0.1rem 0.3rem rgb(255 255 255 / 30%),
+    -0.1rem -0.1rem 0.3rem rgb(255 255 255 / 30%);
+}
+.bgColor {
+  background-color: #131722;
+}
+.hoverImg {
+  overflow: hidden;
+}
+.movie img {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+.movie .hoverImg:hover img {
+  transform: scale(1.2);
+}
+.voteHeader {
+  z-index: 1;
+}
+.logBtn {
+  cursor: pointer;
+}
+.hoverTitle {
+  background-color: rgba(19, 23, 34, 1);
+  opacity: 0.5;
+  transition: 0.3s all;
+}
+.hoverTitle:hover {
+  opacity: 1;
+}
+.SplideSlide:hover .hoverTitle {
+  opacity: 1 !important;
+}
+.splide__pagination {
+  display: none !important;
+}
+.bgLogin,
+.bgRegister {
+  background-image: url(../src/images/pexels-felix-mittermeier-956999.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.navbar {
+  position: relative;
+  z-index: 99;
+}
+.loginOverlay,
+.registerOverlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.movieDetailsOverlay,
+.tvDetailsOverlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.loginSection,
+.registerSection {
+  position: relative !important;
+  z-index: 90 !important;
+}
+iframe {
+  height: 25rem !important;
+  width: 95% !important;
+}
+.bgMovie,
+.bgTv {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.movieDetails,
+.tvDetails {
+  position: relative;
+  z-index: 99;
+}
