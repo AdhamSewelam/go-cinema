@@ -4,7 +4,7 @@
 
 ### Screenshot
 
-- [<img src="./src/images/React%20App%20-%20Google%20Chrome%2010_4_2022%204_11_46%20PM.png" width="250px"](./src/images/React%20App%20-%20Google%20Chrome%2010_4_2022%204_11_46%20PM.png)
+- [<img src="./src/images/React%20App%20-%20Google%20Chrome%2010_4_2022%204_11_46%20PM.png" width="250px"/>](./src/images/React%20App%20-%20Google%20Chrome%2010_4_2022%204_11_46%20PM.png)
 
 ### Links
 
